@@ -105,9 +105,15 @@ footer {
 }
 
 #selfie{
-;
+
     padding-top: 15px;
 }
+
+.img-fluid {
+  max-width: 180px;
+}
+
+
 
 figure {
   border: thin black solid;
