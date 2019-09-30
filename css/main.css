@@ -111,6 +111,10 @@ footer {
     padding-top: 15px;
 }
 
+#a2l-image{
+  width: 328px;
+}
+
 .img-fluid {
   max-width: 180px;
 }

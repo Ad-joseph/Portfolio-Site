@@ -1,0 +1,320 @@
+/* colours :) */
+html {
+  background: rgb(245, 245, 245);
+}
+
+#container {
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav {
+  background: rgb(45,48,48);
+}
+
+#header {
+  background: rgb(221,230,238);
+}
+
+#main {
+  background: white;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Fonts */
+
+html {
+  font-family: helvetica;
+}
+
+#header {
+font-size: 30px;
+}
+
+h1, h2{
+  font-family: source sans pro;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+#hometitle {
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+#homearticle {
+  font-size: 15px;
+}
+
+p {
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#container {
+width:900px;
+margin:0 auto;
+overflow:auto;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+#header {
+  height: 250px;
+  weight: 904px;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Navigation Bar */
+#nav {
+color: white;
+overflow-y: hidden; // hide vertical scroll
+max-height: 50px;
+max-width: 900px;
+min-height: 20px;
+min-width: 900px;
+}
+
+#nav ul {
+list-style: none;
+-webkit-margin-before:0em;
+-webkit-margin-after:0em;
+}
+
+.navlist {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navitem {
+display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom:13px;
+  margin-top:13px;
+}
+
+.navitem:hover {
+     color:#FFF;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav a:hover {
+  color:grey;
+}
+
+/*----------------------------------------------------------------------------*/
+/*------------------------------MAIN CONTENT PAGE-----------------------------*/
+#main {
+overflow:auto;
+margin-top:3px;
+max-width: 900px;
+margin-left: 50px;
+margin-right:50px;
+}
+
+h1 {
+  text-decoration: underline;
+
+}
+
+h2 {
+  -webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.2em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+#macbookphoto{
+  width:300px;
+  height:221px;
+  float:left; margin-right: 10px; margin-bottom: 3px; margin-top: 11px;
+  border: solid black 1px; padding: 2px;
+;
+}
+
+hr {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 0.3px;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*--------------------------OPERATING SYSTEM PAGE-----------------------------*/
+/*----------------------------------------------------------------------------*/
+#footer {
+height:40px;
+width: 900px;
+}
+
+.mainfooter {
+  margin:auto;
+  text-align: center;
+}
+
+.resources {
+  height:65px;
+}
+
+.resource-link {
+  color: grey;
+}
+
+.resource-link:hover{
+  color: rgb(black);
+}
+
+/*----------------------------------------------------------------------------*/
+/*-------------------------------HAREWARE PAGE--------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+#cpuimage {
+  width:300px;
+  height:200px;
+  float:left; margin-right: 10px; margin-bottom; 5px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+#computer-mainframeimage {
+  width:270px;
+  height:180px;
+  float:left; margin-right: 10px; margin-bottom: 2px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+#mainframe-sources {
+  list-style: none;
+  float: left;
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+  -webkit-padding-start:0em;
+}
+
+#mainframe-sources li {
+  color: rgb(102, 102, 102);
+}
+
+#ibmtitle {
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+#supercomputer-resources {
+  list-style: none;
+  float: left;
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+  -webkit-padding-start:0em;
+}
+
+#supercomputer-heading {
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+#supercomputerimage {
+  width:270px;
+  height:174px;
+  float:left; margin-right: 10px; margin-bottom: 2px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*--------------------------OPERATING SYSTEM PAGE-----------------------------*/
+/*----------------------------------------------------------------------------*/
+
+#windows10image {
+  width:300px;
+  height:160px;
+  float:left; margin-right: 10px; margin-bottom: 2px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+#macOSimage {
+  width:300px;
+  height:180px;
+  float:left; margin-right: 10px; margin-bottom: 2px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+#linuximage {
+  width:300px;
+  height:180px;
+  float:left; margin-right: 10px; margin-bottom: 2px; margin-top: 15px;
+  border: solid black 1px; padding: 2px;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------APPLICATION PAGE -------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+#application-sources {
+  list-style: none;
+  float: left;
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+  -webkit-padding-start:0em;
+}
+
+#application-title {
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+/*----------------------------------------------------------------------------*/
+/*----------------------------INDEX APPLICATION-------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+.applicationlinks {
+  text-align: center;
+}
+
+.applicationlinks a {
+  color:black;
+}
+.applicationlinks a:hover {
+  color:grey;
+}
+
+  /*--------------------------------------------------------------------------*/
+  /*-----------------------------PYTHON PROGRAM-------------------------------*/
+  /*--------------------------------------------------------------------------*/
+
+  #trapeziumimage {
+    margin-bottom: 0px;
+    margin-top: -15px;
+  }
+
+  #pythoncontent {
+    margin-top: -15px;
+  }
