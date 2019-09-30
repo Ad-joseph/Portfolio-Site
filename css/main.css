@@ -14,12 +14,13 @@ h1 {
   font-family: Raleway;
   font-size:30px;
   padding:10px;
+  padding-left:42px;
+  padding-right:42px;
   color: white;
   background-color: rgb(8, 81, 114);
   text-decoration-style: none;
   text-align: center;
   width: 100%;
-  min-width: 315px;
 }
 
 
@@ -115,20 +116,13 @@ footer {
 }
 
 .col-sm-5 {
-
     max-width: 195px;
 }
 
 .col-sm-7 {
-  max-width: 600px;
-  width: 50px;
-
-
+  width:fit-content;
 }
 
-#context{
-  min-width:300px;
-}
 
 figure {
   border: thin black solid;
