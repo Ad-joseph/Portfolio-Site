@@ -1,4 +1,5 @@
 
+/*---------------NAV BAR CSS STYLE---------------*/
 
 nav{
   background-color:rgb(8, 81, 114);
@@ -8,21 +9,6 @@ nav{
 .navbar-toggler {
   background-color: white !important;
 }
-
-
-h1 {
-  font-family: Raleway;
-  font-size:30px;
-  padding:10px;
-  padding-left:42px;
-  padding-right:42px;
-  color: white;
-  background-color: rgb(8, 81, 114);
-  text-decoration-style: none;
-  text-align: center;
-  width: 100%;
-}
-
 
 .navbar.fixed-top.container.navbar-light {
   float: left;
@@ -37,16 +23,6 @@ h1 {
   margin-left: -80px !important;
   display: block;
 }
-
-
-.img-fluid {
-  max-width: auto;
-  height: auto;
-}
-
-
-/*This controls when the screensize gets to mobile or tablet and the navba
-collapses, the image doesn't repeat, it goes to a red background.  */
 
 .navbar-brand {
   font-family: 'Raleway', sans-serif;
@@ -65,72 +41,83 @@ collapses, the image doesn't repeat, it goes to a red background.  */
     color: white;
 }
 
-body {
-  background-color: rgb(208,208,208);
-
-}
-
-
-footer {
-  background-color: rgb(8, 81, 114);
-  padding-top: 12px;
-  padding-bottom: 8px;
-  margin-left: -15px;
-  margin-right: -15px;
-  color: white;
-}
-
-.top-buffer {
-  margin-top: 20px;
-}
-
-
-
 .navigationBar {
   margin-top: 80px;
+}
+
+/*---------------Overall Section---------------*/
+
+h1 {
+  font-family: Raleway;
+  font-size:30px;
+  padding:10px;
+  padding-left:42px;
+  padding-right:42px;
+  color: white;
+  background-color: rgb(8, 81, 114);
+  text-decoration-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+body {
+  background-color: rgb(208,208,208);
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
 }
 
 .row {
   background-color: rgb(233, 233, 233);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 20px;
-
   padding-bottom: 15px;
 }
 
 
 
-.content {
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
 
-}
+/*---------------Profile Section---------------*/
+
+/* ---- Photo column ---- */
+
+
+
 
 #selfie{
-
     padding-top: 15px;
 }
+
+
+
+#selfieAndContent {
+  margin-left: -29px;
+  margin-right: -29px;
+}
+
+.openheader {
+  margin-top: 15px;
+}
+
+/*---------------Projects Section---------------*/
 
 #a2l-image{
   width: 328px;
 }
 
-.img-fluid {
-  max-width: 180px;
-}
-
-.col-sm-5 {
-    max-width: 195px;
-}
-
-.col-sm-7 {
-  width:fit-content;
-}
-
-
+/*Projects black border */
 figure {
   border: thin black solid;
-;
 }
 
 figcaption {
@@ -141,17 +128,8 @@ figcaption {
   text-align: center;
 }
 
-p {
-  margin-bottom: 8px;
-}
 
-h4 {
-  text-align: center;
-}
-
-.openheader {
-  margin-top: 15px;
-}
+/*---------------Contact Section---------------*/
 
 .contactinfo {
   padding-left: 15px;
@@ -159,9 +137,39 @@ h4 {
 }
 
 
+/*---------------Footer Section---------------*/
+
+footer {
+  background-color: rgb(8, 81, 114);
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+}
+
+/*---------------------------------------------*/
 
 
-/* Style all font awesome icons */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------CONTACT CSS STYLES--------------*/
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -171,13 +179,12 @@ h4 {
     width: 60px;
 }
 
-/* Add a hover effect if you want */
+/* Hover effect */
 .fa:hover {
     opacity: 0.7;
     text-decoration: none;
 }
 
-/* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
